@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Mar 04 22:14:18 WIB 2018
+0.baseType=DIRECTORY
+0.base=/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/transforms/dexMerger/debug/37
+0.path=classes.dex
+0.set=DEX
+count=1

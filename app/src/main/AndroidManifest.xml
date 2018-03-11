@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ginanjarmusik.teorimusik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chord.ChordActivity"
+            android:parentActivityName=".chord.ChordActivity" />
+        <activity
+            android:name=".intervals.IntervalsActivity"
+            android:parentActivityName=".intervals.IntervalsActivity" />
+        <activity
+            android:name=".notevalues.NoteValuesActivity"
+            android:parentActivityName=".notevalues.NoteValuesActivity" />
+        <activity
+            android:name=".rests.RestsActivity"
+            android:parentActivityName=".rests.RestsActivity" />
+        <activity
+            android:name=".circle.CircleOfFifthsActivity"
+            android:parentActivityName=".circle.CircleOfFifthsActivity" />
+        <activity
+            android:name=".scales.ScalesActivity"
+            android:parentActivityName=".scales.ScalesActivity" />
+        <activity
+            android:name=".octaves.OctavesActivity"
+            android:parentActivityName=".octaves.OctavesActivity" />
+
+        <activity android:name=".symbols.SymbolsActivity"
+            android:parentActivityName=".symbols.SymbolsActivity"/>
+    </application>
+
+</manifest>
