@@ -19,7 +19,6 @@ import com.ginanjarmusik.teorimusik.intervals.fragments.data.p1Datas
  */
 class P1P8Fragment : Fragment() {
 
-
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
