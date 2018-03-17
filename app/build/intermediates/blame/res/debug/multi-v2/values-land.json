@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\Gin's\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/mrdoyon/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e768b5a4fbd4fcd32969bea59d0cde93/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Gin's\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\f073f37a9b7325efe19d774bd2c8f063\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mrdoyon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/002530c6120ef589ee7ec8fe8bc41878/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Gin's\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\77ec3a605156041d145eafa97e2b254e\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

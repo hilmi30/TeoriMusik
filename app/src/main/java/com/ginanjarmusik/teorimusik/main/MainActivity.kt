@@ -1,11 +1,9 @@
 package com.ginanjarmusik.teorimusik.main
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.view.ViewPager
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.RecyclerView
+import android.support.v7.app.AppCompatActivity
 import com.ginanjarmusik.teorimusik.MainView
 import com.ginanjarmusik.teorimusik.R
 import com.viewpagerindicator.CirclePageIndicator
@@ -25,6 +23,7 @@ class MainActivity : AppCompatActivity(), MainView.HomeView {
         menuData.add(MenuDatas(R.mipmap.ic_launcher, "Scales"))
         menuData.add(MenuDatas(R.mipmap.ic_launcher, "Octaves"))
         menuData.add(MenuDatas(R.mipmap.ic_launcher, "Symbols"))
+        menuData.add(MenuDatas(R.mipmap.ic_launcher, "Piano"))
 
         val pager = findViewById<ViewPager>(R.id.menuPager)
         val adapter = MenuViewPagerAdapter(applicationContext, menuData, this)

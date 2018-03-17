@@ -15,6 +15,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.ginanjarmusik.teorimusik.main.MainActivity" >
             <intent-filter>
@@ -25,28 +26,40 @@
         </activity>
         <activity
             android:name="com.ginanjarmusik.teorimusik.chord.ChordActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.chord.ChordActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.chord.ChordActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.intervals.IntervalsActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.intervals.IntervalsActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.intervals.IntervalsActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.notevalues.NoteValuesActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.notevalues.NoteValuesActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.notevalues.NoteValuesActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.rests.RestsActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.rests.RestsActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.rests.RestsActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.circle.CircleOfFifthsActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.circle.CircleOfFifthsActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.circle.CircleOfFifthsActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.scales.ScalesActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.scales.ScalesActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.scales.ScalesActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.octaves.OctavesActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.octaves.OctavesActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.octaves.OctavesActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.ginanjarmusik.teorimusik.symbols.SymbolsActivity"
-            android:parentActivityName="com.ginanjarmusik.teorimusik.symbols.SymbolsActivity" />
+            android:parentActivityName="com.ginanjarmusik.teorimusik.symbols.SymbolsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ginanjarmusik.teorimusik.piano.PianoActivity"
+            android:parentActivityName="com.ginanjarmusik.teorimusik.piano.PianoActivity"
+            android:screenOrientation="landscape" />
 
         <meta-data
             android:name="android.support.VERSION"

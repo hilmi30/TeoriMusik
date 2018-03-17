@@ -1,6 +1,5 @@
 package com.ginanjarmusik.teorimusik.intervals.fragments
 
-
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
@@ -17,7 +16,7 @@ import com.ginanjarmusik.teorimusik.intervals.fragments.data.p1Datas
 /**
  * A simple [Fragment] subclass.
  */
-class P1P8Fragment : Fragment() {
+class P1P8Fragment : android.support.v4.app.Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {

@@ -2,138 +2,126 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1520176375808"
-    token="8550113513991403883"
-    verifier="COMPATIBLE" >
+    timestamp="1521276955662"
+    token="1768329877341573046"
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="211" />
     <task
         name="instant-run-dex"
-        duration="223" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="444" />
+        duration="121" />
     <task
         name="verifier"
-        duration="16" />
+        duration="77" />
 
     <artifact
-        location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1520173213305"
+        timestamp="1521270651222"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/outputs/apk/debug/app-debug.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1520175727719"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1521275662536"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1520176118358"
+        timestamp="1521276916295"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1520176274009"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/outputs/apk/debug/app-debug.apk"
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1520176342713"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1521276955662"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/builds/debug/1520176342713/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1520176375808"
-        verifier="COMPATIBLE" >
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
         <artifact
-            location="/Users/mrdoyon/AndroidStudioProjects/TeoriMusik/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="C:\Users\Gin&apos;s\AndroidStudioProjects\TeoriMusik\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

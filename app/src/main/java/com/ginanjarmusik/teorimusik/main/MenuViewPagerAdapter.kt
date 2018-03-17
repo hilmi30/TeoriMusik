@@ -11,13 +11,14 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import com.ginanjarmusik.teorimusik.MainView
 import com.ginanjarmusik.teorimusik.R
-import com.ginanjarmusik.teorimusik.scales.ScalesActivity
 import com.ginanjarmusik.teorimusik.chord.ChordActivity
 import com.ginanjarmusik.teorimusik.circle.CircleOfFifthsActivity
 import com.ginanjarmusik.teorimusik.intervals.IntervalsActivity
 import com.ginanjarmusik.teorimusik.notevalues.NoteValuesActivity
 import com.ginanjarmusik.teorimusik.octaves.OctavesActivity
+import com.ginanjarmusik.teorimusik.piano.PianoActivity
 import com.ginanjarmusik.teorimusik.rests.RestsActivity
+import com.ginanjarmusik.teorimusik.scales.ScalesActivity
 import com.ginanjarmusik.teorimusik.symbols.SymbolsActivity
 
 /**
@@ -41,52 +42,42 @@ class MenuViewPagerAdapter(val c: Context, val menuDatas: List<MenuDatas>, val v
         img.setImageResource(menu.img)
         title.text = menu.title
 
-        when{
-            position == 0 -> {
-                img.setOnClickListener {
+        img.setOnClickListener {
+            when{
+                position == 0 -> {
                     val intent = Intent(c, ChordActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 1 -> {
-                img.setOnClickListener {
+                position == 1 -> {
                     val intent = Intent(c, IntervalsActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 2 -> {
-                img.setOnClickListener {
+                position == 2 -> {
                     val intent = Intent(c, NoteValuesActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 3 -> {
-                img.setOnClickListener {
+                position == 3 -> {
                     val intent = Intent(c, RestsActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 4 -> {
-                img.setOnClickListener {
+                position == 4 -> {
                     val intent = Intent(c, CircleOfFifthsActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 5 -> {
-                img.setOnClickListener {
+                position == 5 -> {
                     val intent = Intent(c, ScalesActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 6 -> {
-                img.setOnClickListener {
+                position == 6 -> {
                     val intent = Intent(c, OctavesActivity::class.java)
                     view.goTo(intent)
                 }
-            }
-            position == 7 -> {
-                img.setOnClickListener {
+                position == 7 -> {
                     val intent = Intent(c, SymbolsActivity::class.java)
+                    view.goTo(intent)
+                }
+                position == 8 -> {
+                    val intent = Intent(c, PianoActivity::class.java)
                     view.goTo(intent)
                 }
             }
