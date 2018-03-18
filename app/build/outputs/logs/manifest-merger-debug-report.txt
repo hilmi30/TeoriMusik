@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\ViewPagerIndicator-2.4.1.aar\af2f17513c10cbe159265e4f4512fa5a\AndroidManifest.xml:2:1-11:12
 MERGED from [com.ms-square:expandableTextView:0.1.4] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\expandableTextView-0.1.4.aar\ea79c9dfdac24047738b0cada1cd8f3b\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f073f37a9b7325efe19d774bd2c8f063\AndroidManifest.xml:17:1-31:12
@@ -21,25 +21,25 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Gin's\.gr
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\61f776ae557a4fde9a59764f6fe8b9be\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ac7b97b09d3dd4ad9e347e5b4e3de23f\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c726193f4db8ec0e3368d2311392cde3\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-64:12
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:5:5-62:19
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:5:5-58:19
 MERGED from [com.ms-square:expandableTextView:0.1.4] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\expandableTextView-0.1.4.aar\ea79c9dfdac24047738b0cada1cd8f3b\AndroidManifest.xml:9:5-20
 MERGED from [com.ms-square:expandableTextView:0.1.4] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\expandableTextView-0.1.4.aar\ea79c9dfdac24047738b0cada1cd8f3b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] C:\Users\Gin's\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\f073f37a9b7325efe19d774bd2c8f063\AndroidManifest.xml:25:5-29:19
@@ -99,7 +99,7 @@ ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.ginanjarmusik.teorimusik.chord.ChordActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:19:9-22:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:19:9-22:52
 	android:screenOrientation
 		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:22:13-49
 	android:parentActivityName
@@ -107,69 +107,75 @@ ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:20:13-48
 activity#com.ginanjarmusik.teorimusik.intervals.IntervalsActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:24:9-27:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:23:9-26:52
 	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:26:13-49
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:26:13-70
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:25:13-70
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:24:13-56
 activity#com.ginanjarmusik.teorimusik.notevalues.NoteValuesActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:29:9-32:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:27:9-30:52
 	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:30:13-49
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:31:13-72
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:29:13-72
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:30:13-58
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:28:13-58
 activity#com.ginanjarmusik.teorimusik.rests.RestsActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:34:9-37:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:31:9-34:52
 	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:34:13-49
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:36:13-62
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:33:13-62
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:35:13-48
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:32:13-48
 activity#com.ginanjarmusik.teorimusik.circle.CircleOfFifthsActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:39:9-42:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:35:9-38:52
+	android:screenOrientation
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:38:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:37:13-72
+	android:name
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:36:13-58
+activity#com.ginanjarmusik.teorimusik.scales.ScalesActivity
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:39:9-42:52
 	android:screenOrientation
 		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:42:13-49
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:41:13-72
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:41:13-64
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:40:13-58
-activity#com.ginanjarmusik.teorimusik.scales.ScalesActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:44:9-47:51
-	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:47:13-49
-	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:46:13-64
-	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:40:13-50
 activity#com.ginanjarmusik.teorimusik.octaves.OctavesActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:49:9-52:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:43:9-46:52
 	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:46:13-49
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:51:13-66
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:45:13-66
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:50:13-52
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:44:13-52
 activity#com.ginanjarmusik.teorimusik.symbols.SymbolsActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:54:9-57:51
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:47:9-50:52
 	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:57:13-49
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:50:13-49
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:56:13-66
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:49:13-66
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:55:13-52
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:48:13-52
 activity#com.ginanjarmusik.teorimusik.piano.PianoActivity
-ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:59:9-61:52
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:51:9-54:53
 	android:screenOrientation
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:61:13-50
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:54:13-50
 	android:parentActivityName
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:60:13-62
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:53:13-62
 	android:name
-		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:59:19-54
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:52:13-48
+activity#com.ginanjarmusik.teorimusik.test.TestActivity
+ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:56:9-57:62
+	android:parentActivityName
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:57:13-60
+	android:name
+		ADDED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml:56:19-52
 uses-sdk
 INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Gin's\AndroidStudioProjects\TeoriMusik\app\src\main\AndroidManifest.xml

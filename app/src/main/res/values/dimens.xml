@@ -8,4 +8,6 @@
     <dimen name="mayor_width">50dp</dimen>
     <dimen name="mayor_height">200dp</dimen>
     <dimen name="margin_top_piano_key">50dp</dimen>
+    <dimen name="card_test_width">150dp</dimen>
+    <dimen name="card_test_height">80dp</dimen>
 </resources>

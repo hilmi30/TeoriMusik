@@ -20,6 +20,7 @@ import com.ginanjarmusik.teorimusik.piano.PianoActivity
 import com.ginanjarmusik.teorimusik.rests.RestsActivity
 import com.ginanjarmusik.teorimusik.scales.ScalesActivity
 import com.ginanjarmusik.teorimusik.symbols.SymbolsActivity
+import com.ginanjarmusik.teorimusik.test.TestActivity
 
 /**
  * Created by mrdoyon on 2/28/18.
@@ -78,6 +79,10 @@ class MenuViewPagerAdapter(val c: Context, val menuDatas: List<MenuDatas>, val v
                 }
                 position == 8 -> {
                     val intent = Intent(c, PianoActivity::class.java)
+                    view.goTo(intent)
+                }
+                position == 9 -> {
+                    val intent = Intent(c, TestActivity::class.java)
                     view.goTo(intent)
                 }
             }

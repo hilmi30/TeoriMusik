@@ -1,16 +1,18 @@
 package com.ginanjarmusik.teorimusik.piano
 
+import android.annotation.SuppressLint
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
+import android.view.MotionEvent
 import android.view.View
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
 import com.ginanjarmusik.teorimusik.R
 
-class PianoActivity : AppCompatActivity() {
+class PianoActivity : AppCompatActivity(), View.OnTouchListener {
 
     //val VALUE_PARAM = "value_param"
     var valueParam = 1
@@ -22,7 +24,7 @@ class PianoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_piano)
         val toolbar = findViewById<Toolbar>(R.id.pianoToolbar)
         setSupportActionBar(toolbar)
-        supportActionBar?.setTitle("Piano")
+        supportActionBar?.setTitle("Virtual Piano")
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         pianoKeyC = findViewById(R.id.piano_key_c)
@@ -57,122 +59,246 @@ class PianoActivity : AppCompatActivity() {
 
         // Mayor ===============================================
         val pianoC = findViewById<RelativeLayout>(R.id.piano_c)
-        pianoC.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoC.setOnTouchListener(this)
 
         val pianoD = findViewById<RelativeLayout>(R.id.piano_d)
-        pianoD.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoD.setOnTouchListener(this)
 
         val pianoE = findViewById<RelativeLayout>(R.id.piano_e)
-        pianoE.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoE.setOnTouchListener(this)
 
         val pianoF = findViewById<RelativeLayout>(R.id.piano_f)
-        pianoF.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoF.setOnTouchListener(this)
 
         val pianoG = findViewById<RelativeLayout>(R.id.piano_g)
-        pianoG.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoG.setOnTouchListener(this)
 
         val pianoA = findViewById<RelativeLayout>(R.id.piano_a)
-        pianoA.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoA.setOnTouchListener(this)
 
         val pianoB = findViewById<RelativeLayout>(R.id.piano_b)
-        pianoB.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoB.setOnTouchListener(this)
 
         val pianoLastC = findViewById<RelativeLayout>(R.id.piano_c_last)
-        pianoLastC.setOnClickListener{
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        pianoLastC.setOnTouchListener(this)
 
         // Minor =======================================================
         val minorDb = findViewById<RelativeLayout>(R.id.minor_Db)
-        minorDb.setOnClickListener {
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        minorDb.setOnTouchListener(this)
 
         val minorEb = findViewById<RelativeLayout>(R.id.minor_Eb)
-        minorEb.setOnClickListener {
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        minorEb.setOnTouchListener(this)
 
         val minorGb = findViewById<RelativeLayout>(R.id.minor_Gb)
-        minorGb.setOnClickListener {
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        minorGb.setOnTouchListener(this)
 
         val minorAb = findViewById<RelativeLayout>(R.id.minor_Ab)
-        minorAb.setOnClickListener {
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
-            }
-        }
+        minorAb.setOnTouchListener(this)
 
         val minorBb = findViewById<RelativeLayout>(R.id.minor_Bb)
-        minorBb.setOnClickListener {
-            when(valueParam){
-                0 -> MediaPlayer.create(this, R.raw.music).start()
-                1 -> MediaPlayer.create(this, R.raw.bell).start()
-                2 -> MediaPlayer.create(this, R.raw.music).start()
+        minorBb.setOnTouchListener(this)
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    override fun onTouch(p0: View?, p1: MotionEvent?): Boolean {
+        when(p0?.id){
+            R.id.piano_c -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_d -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_e -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_f -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_g -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_a -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_b -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.piano_c_last -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.minor_Db -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.minor_Eb -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.minor_Gb -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.minor_Ab -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
+            }
+            R.id.minor_Bb -> {
+                when (p1?.action){
+                    MotionEvent.ACTION_DOWN -> {
+                        p0.isPressed = true
+                        when(valueParam){
+                            0 -> MediaPlayer.create(this, R.raw.music).start()
+                            1 -> MediaPlayer.create(this, R.raw.bell).start()
+                            2 -> MediaPlayer.create(this, R.raw.music).start()
+                        }
+                    }
+                    MotionEvent.ACTION_UP -> {
+                        p0.isPressed = false
+                    }
+                }
             }
         }
+        return false
     }
 
     private fun checkKeyText() {

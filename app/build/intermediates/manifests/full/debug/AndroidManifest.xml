@@ -15,7 +15,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.ginanjarmusik.teorimusik.main.MainActivity" >
             <intent-filter>
@@ -60,6 +59,9 @@
             android:name="com.ginanjarmusik.teorimusik.piano.PianoActivity"
             android:parentActivityName="com.ginanjarmusik.teorimusik.piano.PianoActivity"
             android:screenOrientation="landscape" />
+        <activity
+            android:name="com.ginanjarmusik.teorimusik.test.TestActivity"
+            android:parentActivityName="com.ginanjarmusik.teorimusik.test.TestActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

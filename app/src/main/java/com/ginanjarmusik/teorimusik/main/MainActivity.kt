@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity(), MainView.HomeView {
         menuData.add(MenuDatas(R.mipmap.ic_launcher, "Scales"))
         menuData.add(MenuDatas(R.mipmap.ic_launcher, "Octaves"))
         menuData.add(MenuDatas(R.mipmap.ic_launcher, "Symbols"))
-        menuData.add(MenuDatas(R.mipmap.ic_launcher, "Piano"))
+        menuData.add(MenuDatas(R.mipmap.ic_launcher, "Virtual Piano"))
+        menuData.add(MenuDatas(R.mipmap.ic_launcher, "Tes Musik"))
 
         val pager = findViewById<ViewPager>(R.id.menuPager)
         val adapter = MenuViewPagerAdapter(applicationContext, menuData, this)

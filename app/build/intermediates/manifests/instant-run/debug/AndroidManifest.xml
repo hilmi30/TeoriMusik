@@ -60,6 +60,9 @@
             android:name="com.ginanjarmusik.teorimusik.piano.PianoActivity"
             android:parentActivityName="com.ginanjarmusik.teorimusik.piano.PianoActivity"
             android:screenOrientation="landscape" />
+        <activity
+            android:name="com.ginanjarmusik.teorimusik.test.TestActivity"
+            android:parentActivityName="com.ginanjarmusik.teorimusik.test.TestActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

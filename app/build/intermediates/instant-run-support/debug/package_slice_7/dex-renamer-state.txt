@@ -1,4 +1,4 @@
-#Sun Mar 18 16:47:24 ICT 2018
-base.0=C\:\\Users\\Gin's\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+#Sun Mar 18 22:34:47 ICT 2018
+base.0=C\:\\Users\\Gin's\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
 path.0=classes.dex
 renamed.0=classes.dex
