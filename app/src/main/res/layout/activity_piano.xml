@@ -23,9 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!--Mayor Key-->
         <LinearLayout
-            android:layout_marginTop="30dp"
-            android:gravity="center|center_horizontal"
+            android:layout_marginTop="@dimen/margin_top_piano_key"
+            android:gravity="center_horizontal|center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -211,19 +212,19 @@
             </android.support.v7.widget.CardView>
         </LinearLayout>
 
+        <!--Minor Key-->
         <LinearLayout
-            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal|center"
+            android:layout_marginTop="@dimen/margin_top_piano_key"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
-                android:layout_marginLeft="@dimen/minor_left_c_margin"
                 android:layout_marginRight="@dimen/minor_cde_margin_right"
                 app:cardElevation="0dp"
                 android:layout_width="@dimen/minor_width"
                 android:layout_height="@dimen/minor_height"
-                android:layout_marginStart="@dimen/minor_left_c_margin"
                 android:layout_marginEnd="@dimen/minor_cde_margin_right">
 
                 <RelativeLayout
@@ -329,6 +330,7 @@
 
             </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
+                android:layout_marginRight="50dp"
                 app:cardElevation="0dp"
                 android:layout_width="@dimen/minor_width"
                 android:layout_height="@dimen/minor_height">
@@ -355,5 +357,29 @@
             </android.support.v7.widget.CardView>
         </LinearLayout>
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/img_min"
+                android:layout_margin="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_remove_circle_outline_black_24dp"/>
+
+            <ImageView
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/img_plus"
+                android:layout_margin="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_add_circle_outline_black_24dp"/>
+        </RelativeLayout>
     </FrameLayout>
 </LinearLayout>

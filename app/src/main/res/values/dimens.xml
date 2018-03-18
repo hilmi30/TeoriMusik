@@ -7,4 +7,5 @@
     <dimen name="minor_height">130dp</dimen>
     <dimen name="mayor_width">50dp</dimen>
     <dimen name="mayor_height">200dp</dimen>
+    <dimen name="margin_top_piano_key">50dp</dimen>
 </resources>
