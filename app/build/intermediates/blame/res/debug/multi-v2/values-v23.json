@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Gin's\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\MrDoyon\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gin's\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\77ec3a605156041d145eafa97e2b254e\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\MrDoyon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a1b92dca21bfab1bc776af314ab001f2\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Gin's\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\9fd9b1aa98846f51b7d30d6d223687d5\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\MrDoyon\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\7b31b574e9e42230455aeae9187fd7d0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

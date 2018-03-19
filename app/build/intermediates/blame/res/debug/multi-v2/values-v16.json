@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Gin's\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\MrDoyon\\AndroidStudioProjects\\TeoriMusik\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gin's\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\77ec3a605156041d145eafa97e2b254e\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\MrDoyon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a1b92dca21bfab1bc776af314ab001f2\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Gin's\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ac7b97b09d3dd4ad9e347e5b4e3de23f\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\MrDoyon\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\7f9ba47b9c580921ccc7773490943e7e\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
